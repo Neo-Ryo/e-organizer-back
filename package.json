@@ -1,0 +1,25 @@
+{
+  "name": "e-organizer-back",
+  "version": "1.0.0",
+  "description": "Back-end of e-organizer client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "prisma"
+  ],
+  "author": "Marc Schiavone",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^2.23.0"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "@prisma/client": "^2.23.0",
+    "dotenv": "^9.0.2",
+    "koa": "^2.13.1",
+    "koa-combine-routers": "^4.0.2"
+  }
+}
